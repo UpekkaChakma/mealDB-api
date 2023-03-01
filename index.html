@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enjoy Your Meal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+
+<body>
+    <div class="home vh-100 d-flex justify-content-center align-items-center">
+        <div class="input-search-container position-relative">
+            <div id="noResultDiv"></div>
+            <input id="inputText" type="text" placeholder="Search Your Meal"
+                class="text-muted w-100 p-3 px-4 rounded-pill">
+            <div class="position-absolute button-div p-1">
+                <button onclick="searchMealByLetter()" type="button" id="white-text"
+                    class="btn btn-success rounded-pill px-4 h-100">
+                    Search
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="meal-details-div" class="d-none"></div>
+    <div id="searched-meals-list-div" class="d-none"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
