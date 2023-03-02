@@ -1,4 +1,6 @@
 # mealDB-api
-Enjoy Your Meal
-1. fetching mealDB api and displaying meal results based on input.
+# Fetch
+1. fetching data from mealDB api and displaying them dynamically based on input.
+2. If U click any card, a details card of the clicked meal will show up
+# DOM Manipulation
 2. Lots of 'DOM Manipulation'
