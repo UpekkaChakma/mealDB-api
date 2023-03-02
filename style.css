@@ -36,7 +36,6 @@ input {
 /* searched all meals div */
 
 .single-meal-div {
-    display: block;
     cursor: pointer;
     overflow: hidden;
     transition: transform 300ms ease;
@@ -89,6 +88,9 @@ input {
     max-width: 340px;
 }
 
+#meal-details-div h2 {
+    margin-bottom: 16px;
+}
 
 #meal-details-div ul {
     display: flex;
@@ -106,4 +108,8 @@ li {
     background-color: rgba(255, 255, 255, 0.03);
     border: 2px solid rgba(255, 255, 255, 0.05);
     width: fit-content;
+}
+
+.d-none {
+    display: none;
 }
